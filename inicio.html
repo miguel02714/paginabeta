@@ -6,6 +6,7 @@
     <title>Square OS - Ecossistema Web Completo</title>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="assets/icones/icones 1/logo.png" type="image/png">
     <style>
         /* Variáveis de Cores e Estilos */
         :root {
@@ -273,22 +274,23 @@
 
     <header>
         <div class="logo-container">
-            <img src="https://i.postimg.cc/HsSHVy6B/image-removebg-preview.png" alt="Square OS Logo">
+            <img src="assets/icones/icones 1/logo.png" alt="Square OS Logo">
             <span>Square OS</span>
         </div>
         <nav>
             <a href="#features">Ecossistema</a>
             <a href="#tech">Tecnologia</a>
             <a href="#about">Sobre</a>
-            
+            <a href="#beta">Beta</a>
         </nav>
     </header>
 
     <section class="hero">
         <div class="hero-content">
             <h1>Square OS</h1>
-            <p>O primeiro sistema operacional web completo. Um ecossistema inovador que redefine a produtividade e a personalização online.</p>
-            
+            <p>O sistema operacional web que transforma qualquer navegador em um supercomputador completo, integrando nuvem, máquinas virtuais, loja de apps, permitindo que você crie, trabalhe e explore sem limites, de qualquer lugar do mundo.</p>
+
+            <a href="https://wa.me/5511931025056?text=Quero%20participar%20do%20beta" target="_blank" class="btn">Participe da Beta</a>
         </div>
     </section>
 
@@ -321,9 +323,9 @@
                 <p>Comunique-se de forma nativa dentro do ecossistema com nosso serviço de mail interno, projetado para ser rápido e altamente seguro.</p>
             </div>
             <div class="feature">
-                <i class="fas fa-palette icon"></i>
-                <h3>UX Personalizável</h3>
-                <p>Interface moderna, responsiva e adaptável, que permite a você personalizar a experiência de acordo com suas necessidades.</p>
+                <i class="fas fa-shield-alt icon"></i>
+                <h3>Square Guardian</h3>
+                <p>Proteção avançada e monitoramento em tempo real do seu ecossistema. Segurança total para dados, aplicativos e máquinas virtuais dentro do Square OS.</p>
             </div>
         </div>
     </section>
@@ -339,11 +341,19 @@ Construído com as tecnologias web mais modernas e com privacidade e desempenho 
     <section id="about">
         <h2>Sobre o Criador</h2>
         <p class="text-block">
-            Desenvolvido por **Miguel Viana Oliveira**, um jovem de 14 anos com uma visão de produto e inovação, o Square OS é um projeto solo que demonstra o poder da dedicação e de uma visão clara. A missão é construir o ecossistema web mais completo, que integra ferramentas essenciais em uma única plataforma coesa.
+            Desenvolvido por <strong>Miguel Viana Oliveira</strong>, um jovem de 14 anos com uma visão de produto e inovação, o Square OS é um projeto solo que demonstra o poder da dedicação e de uma visão clara. A missão é construir o ecossistema web mais completo, que integra ferramentas essenciais em uma única plataforma coesa.
         </p>
     </section>
 
-    
+    <section id="beta">
+        <h2>Participe da Beta</h2>
+        <p class="text-block">
+            Estamos na fase final de desenvolvimento da versão beta. Sua participação é fundamental para o sucesso do projeto, ajudando a testar funcionalidades, reportar bugs e moldar o futuro do Square OS. Junte-se à nossa comunidade de early adopters!
+        </p>
+        <div style="text-align:center; margin-top:2rem;">
+            <a href="https://wa.me/5511931025056?text=Quero%20participar%20do%20beta" target="_blank" class="btn">Quero Participar</a>
+        </div>
+    </section>
 
     <footer>
         <p>&copy; 2025 Square OS – Todos os direitos reservados.</p>
@@ -375,7 +385,6 @@ Construído com as tecnologias web mais modernas e com privacidade e desempenho 
         document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
-
                 document.querySelector(this.getAttribute('href')).scrollIntoView({
                     behavior: 'smooth'
                 });
@@ -383,6 +392,4 @@ Construído com as tecnologias web mais modernas e com privacidade e desempenho 
         });
     </script>
 </body>
-
 </html>
-
